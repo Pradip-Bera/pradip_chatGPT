@@ -540,6 +540,7 @@ document.addEventListener("DOMContentLoaded", () => {
             mobileToggle.className = 'mobile-dark-toggle';
             mobileToggle.innerHTML = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
             mobileToggle.setAttribute('aria-label', 'Toggle dark mode');
+            mobileToggle.style.bottom = '80px';
             document.body.appendChild(mobileToggle);
             mobileToggle.addEventListener('click', toggleDarkMode);
           }
