@@ -30,8 +30,6 @@
     }
   </style>
 </head>
-<body>
-
 <div class="container">
   <!-- Sidebar -->
   <div class="sidebar">
@@ -46,7 +44,10 @@
 
   <!-- Main Chat Area -->
   <div class="main">
-    <div class="header" role="heading" aria-level="1">Chat with Assistant</div>
+    <div class="header" role="heading" aria-level="1">
+      <button id="mobileSidebarToggle" class="mobile-sidebar-toggle" aria-label="Toggle sidebar">☰</button>
+      Chat with Assistant
+    </div>    
     <div class="chat-area" role="log" aria-live="polite"></div>
     <div class="input-area" role="form">
       <input type="text" placeholder="Type your message..." aria-label="Message input">
